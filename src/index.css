@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@theme {
+    /* Tasarımındaki BrewMaster renk tonlarını doğrudan CSS'e işliyoruz */
+    --color-brew-dark: #2B1B15;
+    /* Koyu kahve butonlar ve başlıklar */
+    --color-brew-cream: #FAF8F6;
+    /* Yumuşak krem arka plan */
+    --color-brew-accent: #C67C4E;
+    /* Karamel/Turuncu detaylar */
+    --color-brew-light: #E3D7D3;
+    /* Açık gri/kahve çizgiler */
+}
